@@ -1,0 +1,15 @@
+{
+  "name": "semantic-html",
+  "version": "1.0.0",
+  "description": "example of semantic html",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashleigh Hyslop",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

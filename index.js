@@ -1,0 +1,14 @@
+const express = require('express');
+const app = require('express')();
+const path = require('path');
+
+app.get('/',function(req,res) {
+    res.sendFile(path.resolve(__dirname, './formatted.html'));
+  });
+app.use(express.static('public'))
+// app.get("/image", function(request, response) {
+//     response.render("image");
+//    });
+  
+app.listen(3000);
+console.log('app is listening at port 3000');
