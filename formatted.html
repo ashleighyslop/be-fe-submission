@@ -8,7 +8,7 @@
 
 <body>
     <header>
-        <img src="./public/image/logo.png" alt="Lloyds Logo">
+        <img src="./image/logo.png" alt="Lloyds Logo">
         <nav>
             <ul>
                 <li>
@@ -37,9 +37,11 @@
             <p>At Lloyds Bank, we want to do what’s best for our customers. Making sure you have access to innovative products
                 and services is part of this. That’s why we’re working alongside the regulator, consumer groups and many
                 others to make this happen.</p>
+        </div>
+        <div>
             <h2>Contact Us</h2>
+            <h3>Opening hours</h3>
             <table>
-                <th>Opening hours</th>
                 <tr>
                     <th>Day</th>
                     <th>Times</th>
@@ -75,11 +77,11 @@
             </table>
         </div>
         <h3>Send us a message</h3>
-        <form action="/submit" method="post">
+        <form action="/form-submit" method="post" accept-charset="utf-8">
             <div>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" />
-            </br>
+                </br>
             </div>
             <div>
                 <label for="customerType">Customer Type</label>
@@ -87,23 +89,25 @@
                 <option value="option1">Personal</option>
                 <option value="option2">Business</option>
                 </select>
-            </br>
+                </br>
             </div>
             <div>
                 <label for="email">Email</label>
                 <input type="text" name="email" id="email" />
-            </br>
+                </br>
             </div>
             <div>
                 <label for="textarea">Message:</label>
                 <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
-            </br>
+                </br>
             </div>
+            <div>
             <button type="reset">Reset</button><button type="submit">Submit</button>
+            </div>
         </form>
     </main>
     <footer>
-            <p>Thanks for visiting</p>
+        <p>Thanks for visiting</p>
     </footer>
 </body>
 
