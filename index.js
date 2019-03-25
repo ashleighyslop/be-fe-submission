@@ -3,7 +3,7 @@ const app = require('express')();
 const path = require('path');
 
 app.get('/',function(req,res) {
-    res.sendFile(path.resolve(__dirname, './formatted.html'));
+    res.sendFile(path.resolve(__dirname, './index.html'));
   });
 app.use(express.static('public'));
   
