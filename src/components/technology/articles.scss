@@ -1,0 +1,31 @@
+.articleMain{
+   text-align: center;
+}
+
+.articleBox{
+    @import url('https://fonts.googleapis.com/css?family=Poppins:light');
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    border: solid;
+    margin-bottom: 2%;
+    border-width: 2px;
+    border-color: #E0E0E0;
+    h3, p{
+        padding-left: 2%;
+        padding-right:2%;
+    }
+    a, a:visited {
+        color: #FFB6C1;
+        padding-bottom: 1%;
+      }
+    img{
+        width: 60%;
+        margin-bottom: 1%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
